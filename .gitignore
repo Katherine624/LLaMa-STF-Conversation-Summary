@@ -1,0 +1,16 @@
+.venv/
+cache/
+__pycache__/
+*.py[cod]
+.idea/
+.DS_Store
+tmp/
+
+# Dataset files are downloaded separately; see README.md.
+data/*.csv
+
+# Keep the final adapter, but exclude resumable checkpoints and test outputs.
+outputs/*/checkpoint-*/
+outputs/smoke_test/
+
+
